@@ -1,0 +1,5 @@
+C:\CS289-Examples\Lecture01-Examples\Example3-Console\bin\Debug\Example3-Console.exe.config
+C:\CS289-Examples\Lecture01-Examples\Example3-Console\bin\Debug\Example3-Console.exe
+C:\CS289-Examples\Lecture01-Examples\Example3-Console\bin\Debug\Example3-Console.pdb
+C:\CS289-Examples\Lecture01-Examples\Example3-Console\obj\Debug\Example3-Console.exe
+C:\CS289-Examples\Lecture01-Examples\Example3-Console\obj\Debug\Example3-Console.pdb

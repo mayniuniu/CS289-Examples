@@ -1,0 +1,6 @@
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\bin\Debug\Example1-Console.exe.config
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\bin\Debug\Example1-Console.exe
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\bin\Debug\Example1-Console.pdb
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\obj\Debug\Example1-Console.csprojResolveAssemblyReference.cache
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\obj\Debug\Example1-Console.exe
+C:\CS289-Examples\Lecture01-Examples\Example1-Console\obj\Debug\Example1-Console.pdb
