@@ -36,10 +36,10 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(31, 115);
+            this.startButton.Location = new System.Drawing.Point(28, 92);
             this.startButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(132, 40);
+            this.startButton.Size = new System.Drawing.Size(119, 32);
             this.startButton.TabIndex = 0;
             this.startButton.Text = "點我點我";
             this.startButton.UseVisualStyleBackColor = true;
@@ -48,40 +48,40 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(27, 40);
+            this.nameLabel.Location = new System.Drawing.Point(24, 32);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(93, 20);
+            this.nameLabel.Size = new System.Drawing.Size(92, 16);
             this.nameLabel.TabIndex = 1;
             this.nameLabel.Text = "請輸入姓名:";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(138, 37);
+            this.nameTextBox.Location = new System.Drawing.Point(124, 30);
             this.nameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(126, 29);
+            this.nameTextBox.Size = new System.Drawing.Size(114, 27);
             this.nameTextBox.TabIndex = 2;
             // 
             // messageLabel
             // 
             this.messageLabel.AutoSize = true;
-            this.messageLabel.Location = new System.Drawing.Point(27, 79);
+            this.messageLabel.Location = new System.Drawing.Point(24, 63);
             this.messageLabel.Name = "messageLabel";
-            this.messageLabel.Size = new System.Drawing.Size(73, 20);
+            this.messageLabel.Size = new System.Drawing.Size(72, 16);
             this.messageLabel.TabIndex = 3;
             this.messageLabel.Text = "訊息文字";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 180);
+            this.ClientSize = new System.Drawing.Size(384, 144);
             this.Controls.Add(this.messageLabel);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.startButton);
-            this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.Text = "第一個視窗程式";
             this.Load += new System.EventHandler(this.MainForm_Load);
