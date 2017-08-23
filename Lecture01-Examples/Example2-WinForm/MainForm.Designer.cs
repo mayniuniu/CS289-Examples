@@ -61,6 +61,8 @@
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(114, 27);
             this.nameTextBox.TabIndex = 2;
+            this.nameTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nameTextBox_KeyDown);
+            this.nameTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.nameTextBox_KeyUp);
             // 
             // messageLabel
             // 
@@ -81,7 +83,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.startButton);
             this.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "第一個視窗程式";
             this.Load += new System.EventHandler(this.MainForm_Load);

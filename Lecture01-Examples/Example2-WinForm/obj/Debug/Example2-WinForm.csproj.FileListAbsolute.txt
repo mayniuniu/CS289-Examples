@@ -7,3 +7,4 @@ C:\CS289-Examples\Lecture01-Examples\Example2-WinForm\obj\Debug\Example2_WinForm
 C:\CS289-Examples\Lecture01-Examples\Example2-WinForm\obj\Debug\Example2-WinForm.csproj.GenerateResource.Cache
 C:\CS289-Examples\Lecture01-Examples\Example2-WinForm\obj\Debug\Example2-WinForm.exe
 C:\CS289-Examples\Lecture01-Examples\Example2-WinForm\obj\Debug\Example2-WinForm.pdb
+C:\CS289-Examples\Lecture01-Examples\Example2-WinForm\obj\Debug\Example2-WinForm.csproj.CoreCompileInputs.cache
