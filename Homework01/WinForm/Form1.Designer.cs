@@ -54,9 +54,9 @@
             this.heightLabel.Location = new System.Drawing.Point(27, 67);
             this.heightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(174, 20);
+            this.heightLabel.Size = new System.Drawing.Size(195, 20);
             this.heightLabel.TabIndex = 1;
-            this.heightLabel.Text = "請輸入 Pokemon 身高:";
+            this.heightLabel.Text = "請輸入 Pokemon 身高(ft):";
             // 
             // weightLabel
             // 
@@ -64,30 +64,30 @@
             this.weightLabel.Location = new System.Drawing.Point(27, 107);
             this.weightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.weightLabel.Name = "weightLabel";
-            this.weightLabel.Size = new System.Drawing.Size(174, 20);
+            this.weightLabel.Size = new System.Drawing.Size(205, 20);
             this.weightLabel.TabIndex = 2;
-            this.weightLabel.Text = "請輸入 Pokemon 體重:";
+            this.weightLabel.Text = "請輸入 Pokemon 體重(lbs):";
             // 
             // nameTextbox
             // 
-            this.nameTextbox.Location = new System.Drawing.Point(202, 22);
-            this.nameTextbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.nameTextbox.Location = new System.Drawing.Point(236, 22);
+            this.nameTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.nameTextbox.Name = "nameTextbox";
             this.nameTextbox.Size = new System.Drawing.Size(164, 29);
             this.nameTextbox.TabIndex = 3;
             // 
             // heightTextbox
             // 
-            this.heightTextbox.Location = new System.Drawing.Point(202, 63);
-            this.heightTextbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.heightTextbox.Location = new System.Drawing.Point(236, 63);
+            this.heightTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.heightTextbox.Name = "heightTextbox";
             this.heightTextbox.Size = new System.Drawing.Size(164, 29);
             this.heightTextbox.TabIndex = 4;
             // 
             // weightTextbox
             // 
-            this.weightTextbox.Location = new System.Drawing.Point(202, 103);
-            this.weightTextbox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.weightTextbox.Location = new System.Drawing.Point(236, 103);
+            this.weightTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.weightTextbox.Name = "weightTextbox";
             this.weightTextbox.Size = new System.Drawing.Size(164, 29);
             this.weightTextbox.TabIndex = 5;
@@ -95,7 +95,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(129, 152);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 35);
             this.button1.TabIndex = 6;
@@ -106,7 +106,7 @@
             // outputLabel
             // 
             this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(376, 31);
+            this.outputLabel.Location = new System.Drawing.Point(410, 31);
             this.outputLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(73, 20);
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 207);
+            this.ClientSize = new System.Drawing.Size(695, 207);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.weightTextbox);
@@ -127,7 +127,7 @@
             this.Controls.Add(this.heightLabel);
             this.Controls.Add(this.nameLlabel);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Pokemon Data";
             this.Load += new System.EventHandler(this.Form1_Load);

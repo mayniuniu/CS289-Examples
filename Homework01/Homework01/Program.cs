@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Homework01
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.Write("請輸入 Pokemon 名字:");
             string name = Console.ReadLine();
-            Console.Write("請輸入 Pokemon 身高:");
+            Console.Write("請輸入 Pokemon 身高(ft):");
             string Height = Console.ReadLine();
-            Console.Write("請輸入 Pokemon 體重:");
+            Console.Write("請輸入 Pokemon 體重(lbs):");
             string Weight = Console.ReadLine();
-            Console.WriteLine("Pokemon {0}: 身高{1}  體重{2}.", name, Height, Weight);
+            Console.WriteLine("Pokemon {0}: 身高 {1} ft, 體重 {2} lbs.", name, Height, Weight);
         }
     }
 }
